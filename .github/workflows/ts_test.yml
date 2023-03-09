@@ -21,6 +21,9 @@ jobs:
     - name: Install Dependencies
       run: cd typescript && npm install
 
+    - name: Install TypeScript Globally
+      run: cd typescript && npm install -g typescript
+
     - name: Compile Typescript
       run: npx tsc
 
