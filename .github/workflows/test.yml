@@ -22,7 +22,7 @@ jobs:
       run: cd typescript && npm install
 
     - name: Compile Typescript
-      run: npx tsc
+      run: tsc
 
     - name: Run Tests
       run: npx jest
