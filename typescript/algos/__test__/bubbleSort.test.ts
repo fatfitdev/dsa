@@ -8,7 +8,7 @@ test("bubbleSort should sort an array of numbers in ascending order", () => {
 });
 
 test("bubbleSort should handle an empty array", () => {
-  const arr = [];
+  const arr: number[] = [];
   bubbleSort(arr);
   expect(arr).toEqual([]);
 });
